@@ -16,7 +16,7 @@ class _UserInfoWidgetState extends State<UserInfoWidget> {
           "Goli Yao Hugues",
           style: TextStyle(
               fontSize: 20,
-              fontWeight: FontWeight.bold,
+              fontWeight: FontWeight.w500,
               color: Colors.white,
               letterSpacing: 2),
         ),

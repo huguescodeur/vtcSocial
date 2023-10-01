@@ -4,14 +4,14 @@ import 'package:google_sign_in/google_sign_in.dart';
 
 import '../login_screen.dart';
 
-class AddpostScreen extends StatefulWidget {
-  const AddpostScreen({Key? key}) : super(key: key);
+class AddPostScreen extends StatefulWidget {
+  const AddPostScreen({Key? key}) : super(key: key);
 
   @override
-  State<AddpostScreen> createState() => _AddpostScreenState();
+  State<AddPostScreen> createState() => _AddPostScreenState();
 }
 
-class _AddpostScreenState extends State<AddpostScreen> {
+class _AddPostScreenState extends State<AddPostScreen> {
   @override
   Widget build(BuildContext context) {
     final auth = FirebaseAuth.instance;

@@ -98,7 +98,7 @@ class _MobileScreenState extends State<MobileScreen> {
           children: const [
             SearchScreen(),
             TimelineScreen(),
-            AddpostScreen(),
+            AddPostScreen(),
             NotificationScreen(),
             ProfileScreen(),
           ],

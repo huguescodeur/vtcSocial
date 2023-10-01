@@ -22,6 +22,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final currentUser = FirebaseAuth.instance.currentUser!;
   late PageController pageController;
+
   // var focusNode = FocusNode();
 
   @override
@@ -99,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: const [
             TimelineScreen(),
             SearchScreen(),
-            AddpostScreen(),
+            AddPostScreen(),
             NotificationScreen(),
             ProfileScreen(),
           ],
